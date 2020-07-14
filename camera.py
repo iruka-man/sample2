@@ -12,4 +12,4 @@ class Camera(object):
     def get_frame(self):
         success, image = self.video.read()
         ret, frame = cv2.imencode('.jpg', image)
-        return frame
+        return frame.tobytes()
