@@ -21,7 +21,6 @@ def index():
 def handleMessage(mes):
 
     prefix = 'data:image/png;base64,'
-    print("koko")
 
     camera = Camera()
     count = 0
